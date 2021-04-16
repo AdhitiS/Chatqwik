@@ -1,17 +1,19 @@
-import React from "react"
-import "./chatqwik.css";
+import React from "react";
+import "./Chatqwik.css";
 import Sidebar from "./Sidebar";
+import Chat from "./Chat";
 
-function chatqwik(){
+function Chatqwik(){
     return (
-    <div className="Chatqwik">
-    {/* Sidebar */}
+    <div className="chatqwik">
+
     <Sidebar />
-    {/* Chat */}
+
+    <Chat />
 
     </div>
     );
 
 }
 
-export default chatqwik;
+export default Chatqwik;

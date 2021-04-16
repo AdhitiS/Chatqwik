@@ -1,13 +1,12 @@
-import React from 'react';
+import React from "react";
 import './App.css';
-import chatqwik from "./chatqwik";
+import Chatqwik from "./Chatqwik";
 
 function App() {
   return (
-    <div className="App">
-      <h1> Let's build it!</h1>
-
-      <chatqwik />
+    <div className="app">
+      <Chatqwik />
+     
     </div>
   );
 }
