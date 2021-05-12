@@ -40,6 +40,10 @@ function SidebarChat({ id, chatName}) {
             <p>{chatInfo[0]?.message}</p>
             <small> 
             {new Date(chatInfo[0]?.timestamp?.toDate()).toLocaleString()}
+
+            {/* {timeago.format(new Date(chatInfo[0]?.toDate())
+
+            )} */}
             </small>
         </div>
 
