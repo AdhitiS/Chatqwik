@@ -36,6 +36,7 @@
 
 .chat_messages {
     flex: 1;
+    overflow: scroll;
 }
 
 .chat_input > form > input{
@@ -48,4 +49,15 @@
 
 .chat_input > form > button {
     display : none;
+}
+
+.chat_messages::-webkit-scrollbar{
+    display: none; 
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.chat_messages {
+    -ms-overflow-style: none;  /* IE and edge */
+    scrollbar-width: none;     /* Firefox */
+    
 }
