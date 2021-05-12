@@ -3,13 +3,13 @@ import React from "react";
 import "./SidebarChat.css";
 
 
-function SidebarChat() {
+function SidebarChat({ id, chatName}) {
     return (
         <div className="sidebarChat">
         <Avatar />
 
         <div className="sidebarChat_info">
-            <h3> Channel Name</h3>
+            <h3>{chatName}</h3>
             <p> Last Mesaage sent...</p>
             <small> timestamp </small>
         </div>
